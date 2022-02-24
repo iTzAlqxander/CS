@@ -61,35 +61,119 @@
             </objects>
             <point key="canvasLocation" x="721.73913043478262" y="67.633928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Mirage-->
+        <scene sceneID="unS-uk-hkm">
+            <objects>
+                <viewController id="Npd-qd-Iwf" customClass="MirageScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JbR-RO-Rth">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jis-RU-mdm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mirage" id="UWh-jm-d4S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZrM-1X-kSQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="1415"/>
+        </scene>
+        <!--Choose Map-->
         <scene sceneID="ybi-zi-u9D">
             <objects>
-                <viewController id="VHD-NG-53E" sceneMemberID="viewController">
+                <viewController id="VHD-NG-53E" customClass="MapSelectScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YmA-2d-bKg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="a3O-3h-Yql">
-                                <rect key="frame" x="0.0" y="107" width="414" height="789"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CO-IC-lMm">
+                                <rect key="frame" x="20" y="125" width="374" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
+                                <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Mirage" backgroundImage="miragepic">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Npd-qd-Iwf" kind="show" id="lES-u9-ADO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reB-Sc-lOG">
+                                <rect key="frame" x="20" y="244" width="374" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Nuke" backgroundImage="nukepic copy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fbI-wM-dWx" kind="show" id="8hq-96-Y9M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2v-N9-XvL">
+                                <rect key="frame" x="20" y="363" width="374" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Inferno" backgroundImage="infernopic">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UMD-J6-RBa" kind="show" id="wUQ-nj-KMK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcJ-NG-QWQ">
+                                <rect key="frame" x="20" y="482" width="374" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Overpass" backgroundImage="overpasspic">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JVo-KX-ygD" kind="show" id="XDY-Tr-SMl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FuO-gs-GtX">
+                                <rect key="frame" x="20" y="601" width="374" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Train" backgroundImage="trainpic copy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xAy-cS-DJY" kind="show" id="3oE-cl-Zz4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="411-4u-ffB">
+                                <rect key="frame" x="20" y="720" width="374" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Vertigo" backgroundImage="vertigopic">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OX7-hs-ICY" kind="show" id="hnK-lW-JF8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="orY-vu-EX6"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.7504592538" green="0.63497787709999998" blue="0.83292037249999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ihr-dd-c59">
-                        <nil key="title"/>
-                        <textField key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose A Map" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="xXQ-ZH-Dww">
-                            <rect key="frame" x="191" y="5" width="32" height="34"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="35"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Choose Map" id="ihr-dd-c59"/>
+                    <connections>
+                        <outlet property="infernoMap" destination="e2v-N9-XvL" id="cWD-gO-0Wj"/>
+                        <outlet property="mirageMap" destination="3CO-IC-lMm" id="oDs-eW-oNC"/>
+                        <outlet property="nukeMap" destination="reB-Sc-lOG" id="tX0-2w-KxK"/>
+                        <outlet property="overpassMap" destination="LcJ-NG-QWQ" id="YVd-Gh-fgi"/>
+                        <outlet property="trainMap" destination="FuO-gs-GtX" id="aVa-Gl-HRV"/>
+                        <outlet property="vertigoMap" destination="411-4u-ffB" id="LOl-DK-vQz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W0Z-Sm-Cb4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1398.5507246376812" y="67.633928571428569"/>
+            <point key="canvasLocation" x="368" y="718"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Uxp-Qm-Bo6">
@@ -109,9 +193,95 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="67.633928571428569"/>
         </scene>
+        <!--Nuke-->
+        <scene sceneID="GUP-oF-TY3">
+            <objects>
+                <viewController id="fbI-wM-dWx" customClass="NukeScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lB0-M4-FCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uho-uS-lpv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nuke" id="W26-qQ-xCT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsx-Tk-79y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-609" y="1415"/>
+        </scene>
+        <!--Inferno-->
+        <scene sceneID="z3L-F9-b4U">
+            <objects>
+                <viewController id="UMD-J6-RBa" customClass="InfernoScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dAv-gW-kxc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uAd-VB-buh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Inferno" id="y9F-ev-mcK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Chx-pd-vtW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81" y="1415"/>
+        </scene>
+        <!--Overpass-->
+        <scene sceneID="gZ5-5r-hEt">
+            <objects>
+                <viewController id="JVo-KX-ygD" customClass="OverpassScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8lM-mn-mrm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eRq-FX-CtW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Overpass" id="amo-aU-EDC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qlF-0z-58m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761" y="1415"/>
+        </scene>
+        <!--Train-->
+        <scene sceneID="BiH-Uk-8e4">
+            <objects>
+                <viewController id="xAy-cS-DJY" customClass="TrainScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wI8-mX-uqF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Gsb-m3-WL0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Train" id="1Um-XS-Jvu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IR8-64-qpY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1448" y="1415"/>
+        </scene>
+        <!--Vertigo-->
+        <scene sceneID="Ajc-ie-erg">
+            <objects>
+                <viewController id="OX7-hs-ICY" customClass="VertigoScreen" customModule="CS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L6Q-ps-o1f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Sqm-Pv-712"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vertigo" id="9iZ-OG-Nur"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rho-jf-JUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2117" y="1415"/>
+        </scene>
     </scenes>
     <resources>
         <image name="csgopic" width="1920" height="1080"/>
+        <image name="infernopic" width="374" height="111"/>
+        <image name="miragepic" width="374" height="111"/>
+        <image name="nukepic copy" width="374" height="111"/>
+        <image name="overpasspic" width="374" height="111"/>
+        <image name="trainpic copy" width="374" height="111"/>
+        <image name="vertigopic" width="374" height="111"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

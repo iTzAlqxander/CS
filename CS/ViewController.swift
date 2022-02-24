@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
         //Shadow of map button
         mapButton.layer.shadowColor = UIColor.black.cgColor
         mapButton.layer.shadowOffset = CGSize(width: 3, height: 3)
