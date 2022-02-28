@@ -68,14 +68,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oct-Nv-Jlr">
+                                <rect key="frame" x="-47" y="617" width="536" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="miragemap" translatesAutoresizingMaskIntoConstraints="NO" id="htI-f1-Agt">
                                 <rect key="frame" x="0.0" y="96" width="414" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.3.horizontal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="i5I-jc-qIy">
-                                <rect key="frame" x="-100" y="585" width="590" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="ctSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-hh-J30">
                                 <rect key="frame" x="142" y="662" width="49" height="31"/>
@@ -269,6 +269,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DMd-Tt-cTS">
+                                <rect key="frame" x="-61" y="617" width="536" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="ctSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="esc-wK-XvZ">
                                 <rect key="frame" x="157" y="662" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -329,11 +334,6 @@
                                 <rect key="frame" x="0.0" y="96" width="414" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.3.horizontal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="r7Y-ya-WaE">
-                                <rect key="frame" x="-100" y="585" width="590" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uho-uS-lpv"/>
                         <color key="backgroundColor" red="0.47009301190000002" green="0.2217935026" blue="0.72397738700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -356,6 +356,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Tzd-7e-Orb">
+                                <rect key="frame" x="-61" y="617" width="536" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="ctSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="x1V-dj-Lz7">
                                 <rect key="frame" x="157" y="665" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -418,11 +423,6 @@
                                 <rect key="frame" x="0.0" y="96" width="414" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.3.horizontal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="r7b-sx-x0d">
-                                <rect key="frame" x="-100" y="585" width="590" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uAd-VB-buh"/>
                         <color key="backgroundColor" red="0.47089427709999998" green="0.22181510930000001" blue="0.72343486550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -445,6 +445,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a4y-PG-ULX">
+                                <rect key="frame" x="-61" y="617" width="536" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="ctSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="IAg-gV-Iko">
                                 <rect key="frame" x="157" y="666" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -507,11 +512,6 @@
                                 <rect key="frame" x="0.0" y="96" width="414" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.3.horizontal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-E9-f33">
-                                <rect key="frame" x="-100" y="585" width="590" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eRq-FX-CtW"/>
                         <color key="backgroundColor" red="0.47089427709999998" green="0.22181510930000001" blue="0.72343486550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -534,6 +534,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kvL-i6-VxL">
+                                <rect key="frame" x="-49" y="617" width="536" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="ctSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="ZAy-Gl-lHF">
                                 <rect key="frame" x="157" y="667" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -596,11 +601,6 @@
                                 <rect key="frame" x="0.0" y="96" width="414" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.3.horizontal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HbJ-Zk-EkO">
-                                <rect key="frame" x="-100" y="585" width="590" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gsb-m3-WL0"/>
                         <color key="backgroundColor" red="0.47089427709999998" green="0.22181510930000001" blue="0.72343486550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -623,6 +623,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RNO-wy-zLJ">
+                                <rect key="frame" x="-70" y="617" width="536" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="ctSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="kHF-Hh-g2b">
                                 <rect key="frame" x="157" y="667" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -685,11 +690,6 @@
                                 <rect key="frame" x="0.0" y="96" width="414" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.3.horizontal" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sVT-XG-Zro">
-                                <rect key="frame" x="-100" y="585" width="590" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sqm-Pv-712"/>
                         <color key="backgroundColor" red="0.47089427709999998" green="0.22181510930000001" blue="0.72343486550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -710,13 +710,13 @@
         <image name="csgopic" width="1920" height="1080"/>
         <image name="infernoMap" width="1024" height="1024"/>
         <image name="infernopic" width="374" height="111"/>
-        <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
         <image name="miragemap" width="1024" height="1024"/>
         <image name="miragepic" width="374" height="111"/>
         <image name="nukeMap" width="1024" height="1024"/>
         <image name="nukepic copy" width="374" height="111"/>
         <image name="overpassMap-2" width="860" height="1091"/>
         <image name="overpasspic" width="374" height="111"/>
+        <image name="rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="trainMap" width="500" height="501"/>
         <image name="trainpic copy" width="374" height="111"/>
         <image name="vertigoMap" width="185" height="185"/>
