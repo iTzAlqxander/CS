@@ -16,6 +16,9 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        
         //Shadow of map button
         mapButton.layer.shadowColor = UIColor.black.cgColor
         mapButton.layer.shadowOffset = CGSize(width: 3, height: 3)

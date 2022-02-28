@@ -18,7 +18,7 @@ class MapSelectScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         mirageMap.clipsToBounds = true
         mirageMap.layer.cornerRadius = 10
         
