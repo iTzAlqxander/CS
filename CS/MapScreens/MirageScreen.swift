@@ -9,11 +9,18 @@ import UIKit
 
 class MirageScreen: UIViewController {
 
+    @IBOutlet weak var mirageMap: UIImageView!
     @IBOutlet weak var ctSwitch: UISwitch!
     @IBOutlet weak var tSwitch: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        /*
+        mirageMap.isUserInteractionEnabled = true
+        let pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(self.pinchGesture))
+        mirageMap.addGestureRecognizer(pinchGesture)
+        */
+       
     }
     
     @IBAction func ctSideSwitch(_ sender: UISwitch) {
@@ -30,6 +37,12 @@ class MirageScreen: UIViewController {
             ctSwitch.setOn(true, animated: true)
         }
     }
-    
-
+    /*
+     @objc func pinchGesture(sender:UIPinchGestureRecognizer){
+        sender.view?.transform = (sender.view?.transform.scaledBy(x: sender.scale, y: sender.scale)) as! CGAffineTransform
+        sender.scale = 1.0
+     
+    }
+     */
+     
 }
