@@ -127,9 +127,32 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mG-1a-He8">
+                                <rect key="frame" x="139" y="627" width="137" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Minimize">
+                                    <color key="baseBackgroundColor" red="0.47089427709999998" green="0.22181510930000001" blue="0.72343486550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenMinPressed:" destination="Npd-qd-Iwf" eventType="touchUpInside" id="Bp9-UQ-OWd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCA-aS-Knm">
+                                <rect key="frame" x="139" y="853" width="137" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Maximize">
+                                    <color key="baseBackgroundColor" red="0.2452429388" green="0.11596930279999999" blue="0.38166311359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="whenMaxPressed:" destination="Npd-qd-Iwf" eventType="touchUpInside" id="9Xx-gn-8w4"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="de_mirage_radar" translatesAutoresizingMaskIntoConstraints="NO" id="htI-f1-Agt">
                                 <rect key="frame" x="0.0" y="133" width="414" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jis-RU-mdm"/>
@@ -137,8 +160,17 @@
                     </view>
                     <navigationItem key="navigationItem" title="Mirage" id="UWh-jm-d4S"/>
                     <connections>
+                        <outlet property="buttonBack" destination="oct-Nv-Jlr" id="v9g-Ee-H0U"/>
+                        <outlet property="ctSideLabel" destination="iUO-Kf-57L" id="o7W-nG-Ked"/>
                         <outlet property="ctSwitch" destination="iqT-hh-J30" id="yQw-Nl-iJT"/>
+                        <outlet property="maximizeButton" destination="yCA-aS-Knm" id="rFg-ds-l3X"/>
+                        <outlet property="mimizeButton" destination="4mG-1a-He8" id="M2m-Ip-tIn"/>
                         <outlet property="mirageMap" destination="htI-f1-Agt" id="fkP-lx-PVk"/>
+                        <outlet property="moltovLabel" destination="gsL-dV-7cy" id="b5d-bj-huI"/>
+                        <outlet property="moltovSwitch" destination="YPv-Gm-2ty" id="HIc-hs-cKp"/>
+                        <outlet property="smokeLabel" destination="NFZ-Xx-lZU" id="S9u-H6-3Su"/>
+                        <outlet property="smokeSwitch" destination="jeF-VG-Ynl" id="waf-er-LV4"/>
+                        <outlet property="tSideLabel" destination="e0D-V4-Bl2" id="0uE-lz-wEL"/>
                         <outlet property="tSwitch" destination="dil-mC-5m7" id="M7v-11-yQG"/>
                     </connections>
                 </viewController>
